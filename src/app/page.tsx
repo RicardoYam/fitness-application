@@ -1,6 +1,7 @@
 "use client";
 import Navbar from "@/components/Navbar";
 import { useEffect, useState } from "react";
+import Welcome from "@/components/Welcome";
 
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState<string>("home");
@@ -20,12 +21,13 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-gray-50">
+    <div className="root-layout bg-gray-50">
       <Navbar
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
         isTopOfPage={isTopOfPage}
       />
+      <Welcome setSelectedPage={setSelectedPage} />
     </div>
   );
 }
