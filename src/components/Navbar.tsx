@@ -22,8 +22,8 @@ const NavbarComponent = ({
       href: "home",
     },
     {
-      item: "Benifits",
-      href: "benifits",
+      item: "Benefits",
+      href: "benefits",
     },
     {
       item: "Our Classes",
