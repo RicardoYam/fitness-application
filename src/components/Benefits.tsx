@@ -45,7 +45,7 @@ const container = {
 
 const BenefitsComponent = ({ setSelectedPage }: Props) => {
   return (
-    <section id="benefis" className="mx-auto min-h-full w-5/6 py-20">
+    <section id="benefits" className="mx-auto min-h-full w-5/6 py-20">
       <motion.div onViewportEnter={() => setSelectedPage("benefits")}>
         <motion.div
           initial="hidden"

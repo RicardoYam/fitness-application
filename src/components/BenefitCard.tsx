@@ -1,4 +1,3 @@
-import { scale } from "echarts/types/src/scale/helper.js";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
